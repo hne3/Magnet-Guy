@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnet Guy 2D.CSharp.Plugins", "Magnet Guy 2D.CSharp.Plugins.csproj", "{6EBCD124-7A97-A0B8-3CDA-DC501FEDD325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnet Guy 2D.CSharp", "Magnet Guy 2D.CSharp.csproj", "{8F80FF61-A890-5808-A0BF-6E9876C6C9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnet Guy 2D.CSharp.Editor", "Magnet Guy 2D.CSharp.Editor.csproj", "{F5DD141C-F95B-7B17-6F12-672A3DDB5AD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EBCD124-7A97-A0B8-3CDA-DC501FEDD325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBCD124-7A97-A0B8-3CDA-DC501FEDD325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBCD124-7A97-A0B8-3CDA-DC501FEDD325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBCD124-7A97-A0B8-3CDA-DC501FEDD325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F80FF61-A890-5808-A0BF-6E9876C6C9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F80FF61-A890-5808-A0BF-6E9876C6C9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F80FF61-A890-5808-A0BF-6E9876C6C9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F80FF61-A890-5808-A0BF-6E9876C6C9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5DD141C-F95B-7B17-6F12-672A3DDB5AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DD141C-F95B-7B17-6F12-672A3DDB5AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DD141C-F95B-7B17-6F12-672A3DDB5AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DD141C-F95B-7B17-6F12-672A3DDB5AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
