@@ -10,13 +10,12 @@ public enum Pole
 [RequireComponent(typeof(Rigidbody2D))]
 public class Magnet : MonoBehaviour
 {
+    public double Strength = 4000000;
+
     public Pole MagneticPole = Pole.North;
 
     [SerializeField]
     private Rigidbody2D rigidbody = null;
-
-    public double Strength { get { return strength; } private set { strength = value; } }
-    private double strength = 500000;
     
     void Start()
     {
@@ -38,9 +37,11 @@ public class Magnet : MonoBehaviour
             double yForce = 0;//(SceneProperties.Permeability * Strength * collidingMagnet.Strength) / (4 * Mathf.PI * (radius.y * radius.y));
             // Via https://en.wikipedia.org/wiki/Force_between_magnets
 
-            Vector2 force = new Vector2((float)xForce, (float)yForce);
+            Vector2 force = new Vector2(1000f, -100f);//(float)xForce, (float)yForce);
 
-            rigidbody.AddForce(-force);
+            force = -force;
+            rigidbody.AddForce(force);
+            transform.forward = force;
             Debug.Log(force);
         }
     }
